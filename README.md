@@ -34,8 +34,6 @@ For this project, there were used a json file than contained the following infor
 
 The results of the dashboard created are:
 
-The results of the dashboard created are:
-
 First, there was created a filter in "Test Subject ID no", to filter the information of the volunteer indicated.
 At the moment the user chooses an ID, all the information (the table and the charts) matches with the volunteer and their belly button description.
 
