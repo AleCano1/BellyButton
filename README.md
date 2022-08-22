@@ -1,9 +1,26 @@
 # BellyButton
-Roza, from Microbology laboratory wanted a dashboard with the information of each volunteer that offer theis
+Roza, from Microbology laboratory wanted a dashboard with the information of voulunteer's belly button specifically their bacterias.
 
 ## Overview of Project 
 ### Purpose 
-The purpose of this project is to 
+The purpose of this project is to analyze the bacterias located onto the volunter's bely button. This information will help Roza and the company to know if there are bactererial species that have the ability to synthesize proteins that taste like beef in human body.
+
+### Description of data
+
+For this project, there were used a json file than contained the following information for each volunteer:
+
+* **ID:** A distinct number of the volunteer.
+* **Ethnicity:** The Ecthnicity of the volunteer.
+* **Gender:** The gender of the volunteer.
+* **Age:** The age of the volunteer.
+* **Location:** Where the volunteer come from.
+* **bbtype:** The bbtype of the volunteer.
+* **Wfreq:** the Wfrequency of the volunteer.
+* **otu_ids:** The id of the batecria species.
+* **Sample_values:** the quantity found of the bateria species.
+* **otu_labels:** The name of the bacteria species.
+
+
 
 ## Results 
 
