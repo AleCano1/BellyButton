@@ -6,6 +6,14 @@ Roza, from the Microbiology laboratory, wanted a dashboard with the information 
 
 The purpose of this project is to analyze the bacteria located on the volunteer's belly button. This information will help Roza and the company to know if there are bacterial species that have the ability to synthesize proteins that taste like beef in the human body.
 
+### Tools and Tecnhologies
+
+* Html
+* Javascript
+* Plotly.js
+* VS Code
+* Git Hub
+
 ### Description of data
 
 For this project, there were used a json file than contained the following information for each volunteer:
