@@ -31,12 +31,12 @@ The table indicated the demographic infomation, ID, Ethnicity, gender, age, loca
 
 To create the bar chart, there were created the yticks, slice to 0 to 10 and use teh reverse function to have it in descending order.
 
-   var yticks = otu_ids.slice(0,10).map(id => "OTU" + id).reverse();
-    console.log(yticks)
+    var yticks = otu_ids.slice(0,10).map(id => "OTU" + id).reverse();
+       console.log(yticks)
 
 Also to create  the tarce of the bar chart we use slice() and reverse() functions.
 
-  var barData = [{
+      var barData = [{
         x:sample_values.slice(0,10).reverse(),
         y:yticks.slice(0,10).reverse(),
         type: "bar",
@@ -47,15 +47,29 @@ Also to create  the tarce of the bar chart we use slice() and reverse() function
 The orientation is horizontal, and we define the x, y, type and text and the we create the layouts ad the function to plotly the bar chart.
 Also, for the gauge chart there were created a variable named gaugeData, gaugelayout and finally there use plotly to plot the gauge data and gauge layout.
 
-  Plotly.newPlot("gauge", gaugeData,gaugeLayout);
-})
+      Plotly.newPlot("gauge", gaugeData,gaugeLayout);
+   })
 
 For these two charts there were resulted this:
 
 
 <img width="913" alt="imagen1" src="https://user-images.githubusercontent.com/96165500/185718485-c173a9b1-2a8f-445f-878c-e12b64b0d11e.png">
 
-Continue wuth the dashboard, tehre created a bubble chart below the gaug and bar chart. 
+Continue with the dashboard, there created a bubble chart below the gauge and bar chart. For the bubble chart, there were created a varivle named bubbleData, bubbleLayout and there were used plotly to plot bubbleData and bubbleLayout. In ths chart, there were defined the otu_ids, the sample values and the otu_labelsto the x, y and text properties, respectively.
+
+       var bubbleData = [{
+      x:otu_ids,
+      y:sample_values,
+      text: otu_labels,
+      mode: 'markers',
+      marker: {
+        size: sample_values,
+        color:otu_ids,
+        colorscale:'Picnic'
+      }
+    }];
+    
+The result of bubble chart was the following:
 
 <img width="830" alt="imagen12png" src="https://user-images.githubusercontent.com/96165500/185718486-2e4b0220-28e5-4174-8002-f541ffc340cd.png">
 
