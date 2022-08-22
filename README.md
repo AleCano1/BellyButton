@@ -48,7 +48,7 @@ The orientation is horizontal, and we define the x, y, type and text and the we 
 Also, for the gauge chart there were created a variable named gaugeData, gaugelayout and finally there use plotly to plot the gauge data and gauge layout.
 
       Plotly.newPlot("gauge", gaugeData,gaugeLayout);
-   })
+    })
 
 For these two charts there were resulted this:
 
@@ -74,5 +74,7 @@ The result of bubble chart was the following:
 <img width="830" alt="imagen12png" src="https://user-images.githubusercontent.com/96165500/185718486-2e4b0220-28e5-4174-8002-f541ffc340cd.png">
 
 ## Summary
+
+After this working visualization, it will be easily for the company identifies if there a candidate to fabricate synthetic beef and the Roza's volunteers will be able to identify whether that species is found in their navel. These viusally information facilite teh users to find the information needed, and they just must select the volunteer id, and all the information in table and charts will be deploy. Actually, there is only the information they needed to viusalizaed to find the volunteer properties and their navels. In three charts they found the answers and if some volunteer have the bacteria species needed, they can fnd the volunteer easily. To performance a better but simple dashbordthere addded a title and a few information about the project.
  
 
