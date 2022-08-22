@@ -76,5 +76,9 @@ The result of bubble chart was the following:
 ## Summary
 
 After this working visualization, it will be easily for the company identifies if there a candidate to fabricate synthetic beef and the Roza's volunteers will be able to identify whether that species is found in their navel. These viusally information facilite teh users to find the information needed, and they just must select the volunteer id, and all the information in table and charts will be deploy. Actually, there is only the information they needed to viusalizaed to find the volunteer properties and their navels. In three charts they found the answers and if some volunteer have the bacteria species needed, they can fnd the volunteer easily. To performance a better but simple dashbordthere addded a title and a few information about the project.
+
+##Link
+
+To visualiza the complete dashboard, visit: https://alecano1.github.io/BellyButton/
  
 
