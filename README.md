@@ -60,7 +60,7 @@ For these two charts there were resulted this:
 
 <img width="913" alt="imagen1" src="https://user-images.githubusercontent.com/96165500/185718485-c173a9b1-2a8f-445f-878c-e12b64b0d11e.png">
 
-to continue with the dashboard, there created a bubble chart below the gauge and bar chart. For the bubble chart, there was created a variable named bubbleData, and bubbleLayout and there were used Plotly to plot bubbleData and bubbleLayout. In this chart, there were defined the otu_ids, the sample_values, and the otu_labelsto the x, y, and text properties, respectively.
+To continue with the dashboard, there created a bubble chart below the gauge and bar chart. For the bubble chart, there was created a variable named bubbleData, and bubbleLayout and there were used Plotly to plot bubbleData and bubbleLayout. In this chart, there were defined the otu_ids, the sample_values, and the otu_labelsto the x, y, and text properties, respectively.
 
        var bubbleData = [{
       x:otu_ids,
