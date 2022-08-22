@@ -14,8 +14,8 @@ For this project, there were used a json file than contained the following infor
 * **Gender:** The gender of the volunteer.
 * **Age:** The age of the volunteer.
 * **Location:** Where the volunteer come from.
-* **bbtype:** The bbtype of the volunteer.
-* **Wfreq:** the Wfrequency of the volunteer.
+* **bbtype:** The bacteria type of the volunteer.
+* **Wfreq:** Belly button whashing frecuency. 
 * **otu_ids:** The id of the batecria species.
 * **Sample_values:** the quantity found of the bateria species.
 * **otu_labels:** The name of the bacteria species.
